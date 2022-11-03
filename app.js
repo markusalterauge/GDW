@@ -9,5 +9,5 @@ app.get('/', (req, res) => {
 
 //Startet den Server und hört auf Port 3000
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:3000`) //Magic Number
+  console.log(`Example app listening at http://localhost:${port}`) //Magic Number
 })
